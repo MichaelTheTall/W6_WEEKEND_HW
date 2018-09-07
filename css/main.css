@@ -31,8 +31,8 @@ label::after {
 
 .doggolist-item {
   text-align: center;
-  margin 0.5rem 0.5rem;
-  padding: 0.5rem 1rem;
+  margin: 1rem 1rem;
+  padding: 1rem 1rem;
   border-radius: 10%;
   background: SteelBlue;
 }
@@ -46,7 +46,7 @@ label::after {
 }
 
 
-input[type=text], input[type=number] {
+input[type=text] {
   font-size: 16pt;
   font-family: "Arial Black", Gadget, sans-serif;
   width: 100%;
@@ -55,8 +55,8 @@ input[type=text], input[type=number] {
   box-sizing: border-box;
 }
 
-input[type=text]:focus {
-  border: 3px solid #555;
+input:focus {
+  border: 3px solid SteelBlue;
 }
 
 select {
@@ -69,7 +69,7 @@ select {
   background-color: white;
 }
 
-input[type=button], input[type=submit], input[type=reset] {
+button, input[type=submit], input[type=reset] {
   font-size: 16pt;
   font-family: "Arial Black", Gadget, sans-serif;
   background-color: SteelBlue;
