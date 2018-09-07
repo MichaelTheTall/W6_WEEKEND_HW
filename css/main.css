@@ -1,0 +1,40 @@
+body {
+  font-family: "Arial Black", Gadget, sans-serif;
+}
+
+#form-wrapper {
+  width 100%
+  display: flex;
+  flex-direction: row;
+}
+
+.form-item {
+  margin-right: 2rem;
+}
+
+label.primary {
+  display: block;
+  margin: auto;
+}
+
+label::after {
+  content: ":";
+}
+
+button, input[type="submit"] {
+  margin-top: 1rem;
+}
+
+#doggolist {
+  display: flex;
+  flex-wrap: wrap;
+  list-style-type: none;
+}
+
+.doggolist-item {
+  margin 0.5rem 0.5rem;
+  padding: 0.5rem 1rem;
+  border: 2px solid black;
+  border-radius: 10%;
+  background: grey;
+}
